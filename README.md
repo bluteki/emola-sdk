@@ -1,4 +1,4 @@
-# MPESA DEPENDENCY 
+# EMOLA DEPENDENCY 
 
 Dependency for consumption of the Emola WebService 
 
@@ -45,7 +45,7 @@ print_r($response->toArray());
 
 require __DIR__.'/../../vendor/autoload.php';
 
-use \Bluteki\Sdk\Mpesa;
+use \Bluteki\Sdk\Emola;
 
 // configuring api access credentials
 Emola::config(
@@ -70,7 +70,7 @@ print_r($response->toArray());
 
 require __DIR__.'/../../vendor/autoload.php';
 
-use \Bluteki\Sdk\Mpesa;
+use \Bluteki\Sdk\Emola;
 
 // configuring api access credentials
 Emola::config(
