@@ -6,7 +6,7 @@ Dependency for consumption of the Emola WebService
 
 To install this dependency, just run the command below:
 ```shell
-composer require bluteki/emola-sdk
+composer require blutekic/emola-sdk
 ```
 
 ## Usage
