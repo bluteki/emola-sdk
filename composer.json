@@ -1,5 +1,5 @@
 {
-    "name": "bluteki/emola-sdk",
+    "name": "blutekic/emola-sdk",
     "description": "online payment manager using emola gateway",
     "type": "library",
     "license": "GPL-3.0-or-later",
