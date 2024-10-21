@@ -43,8 +43,10 @@ class Transaction implements TransactionContract
 
         $this->attributes = $response;
 
-        $cleanXml = preg_replace('/(<\/?)(\w+):([^>]*>)/', '$1$3', $response->original);
-        $this->xml = simplexml_load_string($cleanXml, "SimpleXMLElement", LIBXML_NOCDATA);
+        if (!empty($response->original)) {
+            $cleanXml = preg_replace('/(<\/?)(\w+):([^>]*>)/', '$1$3', $response->original);
+            $this->xml = simplexml_load_string($cleanXml, "SimpleXMLElement", LIBXML_NOCDATA);
+        }
     }
 
 
