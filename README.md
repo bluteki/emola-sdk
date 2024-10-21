@@ -82,7 +82,7 @@ Emola::config(
     'Language (pt | en)'
 );
 
-Emola::setFake();
+Emola::fake();
 
 $transactionID = strtoupper(bin2hex(random_bytes(8)));
 $transactionReference = strtoupper(bin2hex(random_bytes(8)));
